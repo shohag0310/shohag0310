@@ -273,7 +273,7 @@ If you need help customizing your portfolio:
 1. Check the customization guide above
 2. Look at the code comments for guidance
 3. Create an issue on GitHub
-4. Reach out via email: genie.arif@example.com
+4. Reach out via email: shohag0310@gmail.com
 
 ## 🎉 Showcase
 
@@ -283,4 +283,4 @@ If you use this template for your portfolio, I'd love to see it! Feel free to sh
 
 **Happy coding! 🚀**
 
-Built with ❤️ by [Genie Arif](https://github.com/genie-arif)
+Built with ❤️ by [Md Arif Aslam](https://github.com/shohag0310)
