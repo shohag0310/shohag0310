@@ -1,0 +1,50 @@
+{
+  "name": "arif-aslam-github-profile-site",
+  "version": "1.0.0",
+  "description": "Arifd Aslam GitHub profile site showcasing skills, projects, and contact information.",
+  "main": "index.html",
+  "scripts": {
+    "start": "live-server --port=3000",
+    "dev": "live-server --port=3000 --open=/",
+    "build": "npm run minify-css && npm run minify-js",
+    "minify-css": "cleancss -o styles/main.min.css styles/main.css",
+    "minify-js": "uglifyjs scripts/main.js -o scripts/main.min.js -c -m",
+    "optimize-images": "imagemin assets/*.{jpg,jpeg,png} --out-dir=assets/optimized",
+    "serve": "python3 -m http.server 8000"
+  },
+  "keywords": [
+    "portfolio",
+    "github-profile",
+    "responsive",
+    "modern",
+    "html5",
+    "css3",
+    "javascript",
+    "dark-mode",
+    "animations"
+  ],
+  "author": "Arif Aslam <shohag0310@gmail.com>",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/genie-arif/github-profile-site.git"
+  },
+  "homepage": "https://genie-arif.github.io/github-profile-site",
+  "devDependencies": {
+    "clean-css-cli": "^5.6.2",
+    "imagemin": "^8.0.1",
+    "imagemin-mozjpeg": "^10.0.0",
+    "imagemin-pngquant": "^9.0.2",
+    "live-server": "^1.2.2",
+    "uglify-js": "^3.17.4"
+  },
+  "browserslist": [
+    "> 0.5%",
+    "last 2 versions",
+    "not dead",
+    "not IE 11"
+  ],
+  "engines": {
+    "node": ">=14.0.0"
+  }
+}
