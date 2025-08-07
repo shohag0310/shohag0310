@@ -27,9 +27,9 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/genie-arif/github-profile-site.git"
+    "url": "https://github.com/shohag0310/shohag0310.git"
   },
-  "homepage": "https://genie-arif.github.io/github-profile-site",
+  "homepage": "https://shohag0310.github.io/shohag0310",
   "devDependencies": {
     "clean-css-cli": "^5.6.2",
     "imagemin": "^8.0.1",
